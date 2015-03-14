@@ -14,6 +14,7 @@
 		5A7762761AB454AB0044B798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7762751AB454AB0044B798 /* Images.xcassets */; };
 		5A7762791AB454AB0044B798 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7762771AB454AB0044B798 /* LaunchScreen.xib */; };
 		5A7762851AB454AB0044B798 /* ClassesAndObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7762841AB454AB0044B798 /* ClassesAndObjectsTests.swift */; };
+		5A7762C21AB458730044B798 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7762C11AB458730044B798 /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5A77627E1AB454AB0044B798 /* ClassesAndObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesAndObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7762831AB454AB0044B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A7762841AB454AB0044B798 /* ClassesAndObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesAndObjectsTests.swift; sourceTree = "<group>"; };
+		5A7762C11AB458730044B798 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				5A77626B1AB454AB0044B798 /* AppDelegate.swift */,
 				5A7762701AB454AB0044B798 /* ViewController.swift */,
+				5A7762C11AB458730044B798 /* FizzBuzz.swift */,
 				5A7762721AB454AB0044B798 /* Main.storyboard */,
 				5A7762751AB454AB0044B798 /* Images.xcassets */,
 				5A7762771AB454AB0044B798 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				5A7762711AB454AB0044B798 /* ViewController.swift in Sources */,
 				5A77626C1AB454AB0044B798 /* AppDelegate.swift in Sources */,
 				5A77626F1AB454AB0044B798 /* ClassesAndObjects.xcdatamodeld in Sources */,
+				5A7762C21AB458730044B798 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
