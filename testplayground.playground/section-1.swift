@@ -25,3 +25,36 @@ import UIKit
 //var testLetter = "R"
 //println("Int32 Min = \(Int32.min) Int32 Max = \(Int32.max)")
 
+let testTuple = (10, 24, 234)
+testTuple.2
+
+let (one, two, three) = testTuple
+one
+two
+three
+
+let anotherTuple = (count: 1, message: "fuck")
+anotherTuple.count
+anotherTuple.message
+
+// safe optional value...
+var index: Int?
+// value or nil...
+index = nil
+var treeArr = ["Oak", "Poplar", "Hickory"]
+if let val = index {
+    // been assigned...
+    println(treeArr[val])
+} else {
+    // ...
+    println("Ain't no damn value...")
+}
+
+// optional unwrapping pattern...
+var optionalValue: Int?
+optionalValue = nil
+optionalValue = 24
+if let value = optionalValue {
+    println(value)
+}
+
