@@ -9,50 +9,11 @@
 import UIKit
 
 class AttractionTableViewController: UITableViewController {
-
-    var attractionImages = [String]()
-    var attractionNames = [String]()
-    var webAddresses = [String]()
     
-    var relatedDataQuantityCount: Int?
+    let attractionTableData = AttractionTableData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // needs to be in a seperate data model class for the tableView and tableViewCells...
-        
-        // ...
-        attractionNames = ["Buckingham Palace", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-        
-        // ...
-        webAddresses = [
-            
-            "http://en.wikipedia.org/wiki/Buckingham_Palace",
-            
-            "http://en.wikipedia.org/wiki/Eiffel_Tower",
-            
-            "http://en.wikipedia.org/wiki/Grand_Canyon",
-
-            "http://en.wikipedia.org/wiki/Windsor_Castle",
-
-            "http://en.wikipedia.org/wiki/Empire_State_Building"
-        
-        ]
-        
-        // ...
-        attractionImages = [
-        
-            "buckingham_palace.jpg",
-            
-            "eiffel_tower.jpg",
-            
-            "grand_canyon.jpg",
-            
-            "windsor_castle.jpg",
-            
-            "empire_state_building.jpg"
-        
-        ]
         
         tableView.estimatedRowHeight = 50
         
@@ -80,13 +41,7 @@ class AttractionTableViewController: UITableViewController {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         
-//        for x in attractionNames {
-//            ++relatedDataQuantityCount!
-//        }
-        
-        // return relatedDataQuantityCount!
-        
-        return attractionNames.count
+        return attractionTableData.getAttractionCount()
         
     }
 
@@ -97,8 +52,10 @@ class AttractionTableViewController: UITableViewController {
 
         let row = indexPath.row
         cell.attractionLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
-        cell.attractionLabel.text = attractionNames[row]
-        cell.attractionImage.image = UIImage(named: attractionImages[row])
+        let names = attractionTableData.getAttractionNames()
+        cell.attractionLabel.text = names[row]
+        let images = attractionTableData.getAttractionImages()
+        cell.attractionImage.image = UIImage(named: images[row])
         
         return cell
     }

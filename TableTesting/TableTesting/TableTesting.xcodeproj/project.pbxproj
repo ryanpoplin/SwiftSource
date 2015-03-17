@@ -19,6 +19,7 @@
 		5A6B27121AB861D1006B76C3 /* empire_state_building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A6B270D1AB861D1006B76C3 /* empire_state_building.jpg */; };
 		5A6B27131AB861D1006B76C3 /* grand_canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A6B270E1AB861D1006B76C3 /* grand_canyon.jpg */; };
 		5A6B27141AB861D1006B76C3 /* windsor_castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A6B270F1AB861D1006B76C3 /* windsor_castle.jpg */; };
+		5A6B27161AB8D267006B76C3 /* AttractionTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6B27151AB8D267006B76C3 /* AttractionTableData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5A6B270D1AB861D1006B76C3 /* empire_state_building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire_state_building.jpg; sourceTree = "<group>"; };
 		5A6B270E1AB861D1006B76C3 /* grand_canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_canyon.jpg; sourceTree = "<group>"; };
 		5A6B270F1AB861D1006B76C3 /* windsor_castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windsor_castle.jpg; sourceTree = "<group>"; };
+		5A6B27151AB8D267006B76C3 /* AttractionTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				5A6B26E61AB84508006B76C3 /* AppDelegate.swift */,
 				5A6B27061AB84C64006B76C3 /* AttractionTableViewController.swift */,
 				5A6B27081AB84CD5006B76C3 /* AttractionTableViewCell.swift */,
+				5A6B27151AB8D267006B76C3 /* AttractionTableData.swift */,
 				5A6B26EA1AB84508006B76C3 /* Main.storyboard */,
 				5A6B26ED1AB84508006B76C3 /* Images.xcassets */,
 				5A6B26EF1AB84508006B76C3 /* LaunchScreen.xib */,
@@ -246,6 +249,7 @@
 				5A6B27071AB84C64006B76C3 /* AttractionTableViewController.swift in Sources */,
 				5A6B27091AB84CD5006B76C3 /* AttractionTableViewCell.swift in Sources */,
 				5A6B26E71AB84508006B76C3 /* AppDelegate.swift in Sources */,
+				5A6B27161AB8D267006B76C3 /* AttractionTableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
